@@ -19,7 +19,6 @@ const Ninjas = ({ninjas}) => {
     return ( 
         <div>
             <h1>All Ninjas</h1>
-            <h2>Updating!!!</h2>
             {/* map through the ninjas */}
             {ninjas.map(ninja => (
                 <Link href={"/ninjas/"+ninja.id} key={ninja.id} className={styles.single}>
